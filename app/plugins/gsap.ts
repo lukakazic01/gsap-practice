@@ -3,6 +3,7 @@ import { GSDevTools } from "gsap/GSDevTools";
 import { MotionPathPlugin } from "gsap/MotionPathPlugin";
 import { InertiaPlugin } from "gsap/InertiaPlugin";
 import { CustomEase } from "gsap/CustomEase";
+import { ScrollTrigger } from "gsap/ScrollTrigger";
 
 export default defineNuxtPlugin(() => {
   useGSAP().registerPlugin(Draggable);
@@ -10,4 +11,5 @@ export default defineNuxtPlugin(() => {
   useGSAP().registerPlugin(MotionPathPlugin);
   useGSAP().registerPlugin(InertiaPlugin);
   useGSAP().registerPlugin(CustomEase);
+  useGSAP().registerPlugin(ScrollTrigger);
 });
