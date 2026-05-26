@@ -665,9 +665,8 @@ onMounted(() => {
       trigger: ".carWrapper",
       start: "top 50%",
       end: "bottom 50%",
-      scrub: 2,
+      scrub: 1,
       pin: true,
-      pinSpacing: true,
       markers: false,
     },
   });
@@ -682,14 +681,14 @@ svg {
 }
 
 .carWrapper {
-  background:rgb(255, 255, 255, 1)
+  background: rgba(255, 255, 255, 1);
 }
 .dark {
-	background:#263238;
+  background:#263238;
 }
 
 .dark h1 {
-	color:#ccc;
+  color:#ccc;
 }
 .pin-spacer {
   /* background:rgb(100, 255, 0, 0.1) */

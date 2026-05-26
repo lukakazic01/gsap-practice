@@ -22,7 +22,8 @@
     <ScrollTriggerStartIn3EasySteps v-if="false" />
     <ScrollTriggerScrubAndPin v-if="false" />
     <ScrollTriggerPinAndPinSpacing v-if="false" />
-    <ScrollTriggerPinDeepDive v-if="true" />
+    <ScrollTriggerPinDeepDive v-if="false" />
+    <ScrollTriggerIntroToParallax v-if="true" />
   </div>
 </template>
 
