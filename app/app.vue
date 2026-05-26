@@ -23,7 +23,9 @@
     <ScrollTriggerScrubAndPin v-if="false" />
     <ScrollTriggerPinAndPinSpacing v-if="false" />
     <ScrollTriggerPinDeepDive v-if="false" />
-    <ScrollTriggerIntroToParallax v-if="true" />
+    <ScrollTriggerIntroToParallax v-if="false" />
+    <ScrollTriggerAerialSvgParallax v-if="false" />
+    <ScrollTriggerForMultipleSections v-if="true" />
   </div>
 </template>
 

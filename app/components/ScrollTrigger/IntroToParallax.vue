@@ -26,7 +26,6 @@ onMounted(() => {
       start: "top top",
       end: "bottom 25%",
       scrub: 0.5,
-      markers: true,
       pin: true,
       toggleActions: "restart none none reverse",
       pinSpacing: true,
